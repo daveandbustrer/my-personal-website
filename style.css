@@ -1,4 +1,21 @@
-body {
-    align-items: center;
+body{
     text-align: center;
+}
+.title{
+    text-align: left;
+}
+.navbar{
+
+    width: 250;
+    height: 100;
+    background-color: #404E7C;
+}
+.navbar ul{
+    text-align: left;
+    justify-items: left;
+}
+.navbar a{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: x-large;
 }
