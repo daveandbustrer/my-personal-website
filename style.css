@@ -1,21 +1,27 @@
 body{
     text-align: center;
+    background-color: #AD343E;
+    color: #0D160B;
 }
 .title{
     text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size:xxx-large;
+    font-weight: 900;
+    height: 30;
+    font-style:oblique;
+
 }
 .navbar{
-
-    width: 250;
-    height: 100;
-    background-color: #404E7C;
+    height: 50;
+    background-color: #F6BDD1;
 }
 .navbar ul{
     text-align: left;
     justify-items: left;
 }
 .navbar a{
-    color: rgb(255, 255, 255);
+    color: #BF1A54;
     font-weight: 900;
     font-size: x-large;
 }
