@@ -2,6 +2,8 @@ body{
     text-align: center;
     background-color: #AD343E;
     color: #0D160B;
+    padding: 0;
+    margin: 0;
 }
 .title{
     text-align: left;
@@ -24,4 +26,14 @@ body{
     color: #BF1A54;
     font-weight: 900;
     font-size: x-large;
+}
+main{
+    font-size: x-large;
+}
+main p{
+    font-size: larger;
+}
+.splat img{
+    width: 100vw;
+    height: 500;
 }
