@@ -12,12 +12,12 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: xxx-large;
   font-weight: 900;
-  height: 30;
+  height: 30px;
   font-style: oblique;
-  margin-bottom: 15;
+  margin-bottom: 15px;
 }
 .navbar {
-  height: 50;
+  height: 50px;
   background-color: #f6bdd1;
 }
 .navbar ul {
@@ -26,8 +26,8 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  margin-left: 25;
-  padding-top: 5;
+  margin-left: 25px;
+  padding-top: 5px;
   overflow: hidden;
 }
 .navbar li {
