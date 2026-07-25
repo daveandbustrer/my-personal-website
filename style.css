@@ -1,16 +1,8 @@
-main {
-  font-size: x-large;
-}
-main p {
-  font-size: larger;
-}
 .changeText {
   position: fixed;
   top: 75px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 24px;
-  color: white;
   opacity: 0;
   transition: opacity 0.5s ease;
 }
@@ -18,7 +10,5 @@ main p {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 24px;
-  color: white;
   transition: opacity 0.5s ease;
 }

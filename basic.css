@@ -6,6 +6,8 @@ body {
   font-family: Arial, sans-serif;
   transition: background-color 0.5s ease;
   height: 110vh; /* Make page scrollable */
+  font-size: 24px;
+  color: white;
 }
 .title {
   text-align: left;
@@ -15,4 +17,5 @@ body {
   height: 30px;
   font-style: oblique;
   margin-bottom: 15px;
+  color: black;
 }
