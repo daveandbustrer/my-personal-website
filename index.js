@@ -13,11 +13,11 @@ window.addEventListener("scroll", () => {
 
 function triggerEffect(ONorOFF,color) {
     setTimeout(() => {
-        document.body.style.backgroundColor = color; // Change background
+        document.body.style.backgroundColor = color;
         setTimeout(() => {
-            text.style.opacity = String(ONorOFF); // Show text
+            text.style.opacity = String(ONorOFF);
             if (ONorOFF){
-            pretext.style.opacity = String(0); // Show text
+            pretext.style.opacity = String(0);
         }else{
             pretext.style.opacity = String(1);
         }
