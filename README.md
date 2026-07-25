@@ -1,3 +1,2 @@
 # my-personal-website
-A website that is about me and has info about me
-![home page](Recording 2026-07-25 102828.gif)
+<img width="1012" height="900" alt="home page" src="https://github.com/user-attachments/assets/512ece42-acb4-42bd-8732-90d085448b93" />
