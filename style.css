@@ -28,11 +28,31 @@ body {
   padding: 0;
   margin-left: 25;
   padding-top: 5;
+  overflow: hidden;
+}
+.navbar li {
+  float: left;
 }
 .navbar a {
   color: #bf1a54;
   font-weight: 900;
   font-size: x-large;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+.navbar a.left {
+  padding-left: 14px;
+}
+.navbar a.center {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.navbar a.right {
+  padding-right: 14px;
+}
+.navbar a:hover {
+  color: #680e2e;
 }
 main {
   font-size: x-large;
