@@ -1,39 +1,52 @@
-body{
-    text-align: center;
-    background-color: #AD343E;
-    color: #0D160B;
-    padding: 0;
-    margin: 0;
+body {
+  text-align: center;
+  background-color: #ad343e;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.5s ease;
+  height: 110vh; /* Make page scrollable */
 }
-.title{
-    text-align: left;
-    font-family:'Courier New', Courier, monospace;
-    font-size:xxx-large;
-    font-weight: 900;
-    height: 30;
-    font-style:oblique;
-
+.title {
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xxx-large;
+  font-weight: 900;
+  height: 30;
+  font-style: oblique;
+  margin-bottom: 15;
 }
-.navbar{
-    height: 50;
-    background-color: #F6BDD1;
+.navbar {
+  height: 50;
+  background-color: #f6bdd1;
 }
-.navbar ul{
-    text-align: left;
-    justify-items: left;
+.navbar ul {
+  text-align: left;
+  justify-items: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 25;
+  padding-top: 5;
 }
-.navbar a{
-    color: #BF1A54;
-    font-weight: 900;
-    font-size: x-large;
+.navbar a {
+  color: #bf1a54;
+  font-weight: 900;
+  font-size: x-large;
 }
-main{
-    font-size: x-large;
+main {
+  font-size: x-large;
 }
-main p{
-    font-size: larger;
+main p {
+  font-size: larger;
 }
-.splat img{
-    width: 100vw;
-    height: 500;
+.changeText {
+  position: fixed;
+  top: 75px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
