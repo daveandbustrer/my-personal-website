@@ -22,6 +22,7 @@ ___
 home page has a cool scroll able thing one it
 multiple pages
 navigation bar
+rainbow links in project page
 
 ___
 
