@@ -1,5 +1,4 @@
 window.onload = () => {
-    fetch("my-personal-website/navbar/navbar.html")
-        .then(res => res.text())
+    fetch("navbar/navbar.html")|fetch("https://daveandbustrer.github.io/my-personal-website/navbar/navbar.html")
         .then(html => document.getElementById("navbar").innerHTML = html);
 };
