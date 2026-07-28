@@ -12,3 +12,7 @@
   transform: translateX(-50%);
   transition: opacity 0.5s ease;
 }
+body {
+  transition: background-color 0.5s ease;
+  height: 110vh;
+}
