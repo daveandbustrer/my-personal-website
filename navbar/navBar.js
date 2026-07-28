@@ -1,5 +1,5 @@
 window.onload = () => {
-    fetch("/navbar/navbar.html"|"\\navbar\\navbar.html")
+    fetch("/navbar/navbar.html"|"/my-personal-website/navbar/navbar.html")
         .then(res => res.text())
         .then(html => document.getElementById("navbar").innerHTML = html);
 };
