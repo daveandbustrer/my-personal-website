@@ -1,7 +1,7 @@
 # my-personal-website
 ### A website that is about me and has info about me
 
-<img width="506" height="450" alt="home page" src="https://github.com/user-attachments/assets/512ece42-acb4-42bd-8732-90d085448b93" />
+<img width="506" height="450" alt="home page" src="imgs\Recording 2026-07-25 102828.gif" />
 
 ___
 
