@@ -25,4 +25,14 @@ window.onload = () => {
         }
       });
     });
+    // Fix CSS paths automatically
+document.querySelectorAll('link[rel="stylesheet"]').forEach(link => {
+  const href = link.getAttribute("href");
+
+  // If running on GitHub Pages, prefix with repo name
+  if (!isLocal && !href.startsWith("/my-personal-website")) {
+    link.setAttribute("href", `/my-personal-website/${href}`);
+  }
+});
+
 };
